@@ -13,6 +13,7 @@ header{
 .header-container{
     color: white;
     padding: 180px 100px 0 800px;
+    text-align: right;
 }
 .header-container h1{
     font-size: 45px;
@@ -28,7 +29,7 @@ header{
 /* primary button work is here  */
 
 .btn-primary{
-    color: dodgerblue;
+    color: rgb(0, 125, 250);
     background-color: white;
     margin-top: 20px;
     padding: 10px;
@@ -78,6 +79,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin: 40px 135px;
+    align-items: center;
 }
 .single-item{
     text-align: center;
@@ -96,4 +98,128 @@ header{
 }
 .single-item p{
     color: rgba(0, 0, 0, 0.726);
+}
+
+/* plan section stop  */
+
+.mindset-container{
+    background-image: linear-gradient(to right, #005fac , #005fac00), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    margin: 40px 150px;
+    border-radius: 8px;
+}
+.mindset-container h1{
+    padding: 70px 0 0 150px;
+    color: white;
+    font-size: 30px;
+}
+.mindset-container .btn-primary{
+    margin-left: 150px;
+    padding: 10px 17px;
+}
+
+/* contact form start  */
+
+.contact-head{
+    margin: 50px 150px;
+}
+.contact-tittle{
+    font-size: 25px;
+    margin: 10px 0 15px 0;
+    text-align: center;
+}
+.contact-container{
+    background-color: #EAECF0;
+    display: flex;
+    height: 500px;
+}
+.form-tag{
+    width: 600px;
+}
+.form-tag .btn-primary{
+    background-color: dodgerblue;
+    color: white;
+    margin-left: 20px;
+    padding: 10px 15px;
+}
+.fullname-container{
+    display: flex;
+}
+.fullname-container input{
+    width: 200px;
+    height: 40px;
+    margin: 0 20px;
+    border: none;
+    padding:0 10px;
+}
+.fullname-container h4{
+    margin: 40px 20px 10px 20px;
+}
+.subject-input{
+    width: 85%;
+    height: 40px;
+    margin: 0 20px;
+    border: none;
+    padding: 0 10px;
+}
+.subject{
+    margin: 20px 0 10px 20px;
+}
+.message{
+    margin: 20px 0 10px 20px;
+}
+.message-input{
+    width: 85%;
+    height: 140px;
+    margin: 0 20px;
+    border: none;
+    padding: 10px;
+}
+
+/* footer section work is start  */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.918);
+}
+.footer-container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+}
+.single-container h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.single-container p{
+    color: rgba(255, 255, 255, 0.678);
+    margin-bottom: 10px;
+}
+.single-container img{
+    margin: 5px 7px 0 0;
+    cursor: pointer;
+}
+.single-container h3{
+    font-size: 25px;
+    margin: 0 0 10px 0;
+}
+.single-container input{
+    padding: 10px 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.747);
+    border-radius: 5px;
+}
+.single-container .btn-primary{
+    background-color: #005fac;
+    color: white;
+    padding: 10px 15px;
+}
+#footer{
+    color: rgba(255, 255, 255, 0.795);
+    text-align: center;
+    padding-bottom: 15px;
 }
